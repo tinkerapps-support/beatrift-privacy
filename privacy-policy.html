@@ -35,7 +35,7 @@
 <body>
 
   <h1>Privacy Policy</h1>
-  <p class="subtitle">Beatrift &nbsp;·&nbsp; Last updated: June 19, 2026</p>
+  <p class="subtitle">Beatrift &nbsp;·&nbsp; Last updated: July 4, 2026</p>
 
   <h2>Overview</h2>
   <p>
@@ -60,11 +60,18 @@
     store personal data on infrastructure it controls. Your game
     progress — including Shards, level progress, Forge upgrades, resonance skins,
     sound packs, boosts, jar collections, and settings — is stored locally on your
-    device using standard application storage. Beatrift does <strong>not</strong> sync
-    your game progress to the cloud; if you uninstall the app or clear its data, local
-    progress is lost (non-consumable purchases can still be restored through Google
-    Play — see below). Game data is designed not to include directly identifying
-    personal information.
+    device using standard application storage.
+  </p>
+  <p>
+    <strong>Cloud save (optional).</strong> If you choose to sign in to Google Play
+    Games, your game progress is additionally backed up to the Google Play Games
+    Saved Games service in your Google account, so it can follow you to a new device
+    or survive a reinstall (see <em>Google Play Games Services</em> below). This
+    backup is stored by Google, not by Tinker Apps. If you do not sign in, progress
+    exists only on your device: uninstalling the app or clearing its data will lose
+    it (non-consumable purchases can still be restored through Google Play — see
+    below). Game data is designed not to include directly identifying personal
+    information.
   </p>
 
   <h2>Third-Party Services We Use</h2>
@@ -83,7 +90,7 @@
       <tr><td>Google AdMob</td><td>Advertising (interstitial and rewarded ads)</td></tr>
       <tr><td>Google Firebase Analytics</td><td>Aggregate usage analytics</td></tr>
       <tr><td>Google Firebase Crashlytics</td><td>Crash and error reporting</td></tr>
-      <tr><td>Google Play Games Services</td><td>Sign-in, leaderboards, achievements</td></tr>
+      <tr><td>Google Play Games Services</td><td>Sign-in, leaderboards, achievements, cloud save (game-progress backup)</td></tr>
       <tr><td>Google Play Billing</td><td>In-app purchases</td></tr>
     </tbody>
   </table>
@@ -100,9 +107,11 @@
   </ul>
   <p>
     This data is collected by AdMob and shared with Google and its advertising
-    partners for ad targeting and measurement. Tinker Apps does not control how
-    AdMob collects or uses this data. You can opt out of personalised advertising
-    and limit certain ad-related data collection in your device settings under
+    partners for ad targeting and measurement. AdMob processes this data according to
+    Google's privacy practices and policies; Tinker Apps does not independently access or
+    use this advertising data outside of the reports and controls Google provides. You can
+    opt out of personalised advertising and limit certain ad-related data collection in your
+    device settings under
     <em>Google &gt; Ads &gt; Opt out of Ads Personalisation</em>.
     AdMob is operated by Google under
     <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.
@@ -151,7 +160,10 @@
   <ul>
     <li>
       <strong>Shard bundles</strong> — consumable, one-time grants of in-game currency.
-      Shards cannot be restored in the event of data loss, device change, or account transfer.
+      Consumable purchases cannot be restored through Google Play. However, your Shard
+      balance is part of your game progress: if you are signed in to Google Play Games,
+      it is carried over to a new device or reinstall via cloud save. If you are not
+      signed in, Shards are lost together with local game data.
     </li>
     <li>
       <strong>Remove Ads</strong> — a non-consumable purchase that disables interstitial ads
@@ -165,20 +177,22 @@
     </li>
   </ul>
   <p>
-    Consumable Shard grants are not recoverable if game data is deleted or lost. If you
-    uninstall and reinstall the app, only non-consumable purchases (Remove Ads and the
-    Resonance Pack) are restored automatically via your Google Play account.
+    If you uninstall and reinstall the app, non-consumable purchases (Remove Ads and the
+    Resonance Pack) are restored automatically via your Google Play account. Consumable
+    Shard grants are not restored by Google Play, but are recovered as part of your game
+    progress via cloud save if you are signed in to Google Play Games; otherwise they
+    are not recoverable if game data is deleted or lost.
   </p>
 
   <h2>Google Play Games Services</h2>
   <p>
     Beatrift optionally integrates with Google Play Games Services for sign-in,
-    leaderboards, and achievements. Beatrift does not create or maintain its own user
-    accounts; signing in uses your existing Google account, which is created and
+    leaderboards, achievements, and cloud save. Beatrift does not create or maintain its
+    own user accounts; signing in uses your existing Google account, which is created and
     managed by Google. Sign-in is optional — if you do not sign in to Google Play
-    Games, Play Games profile data is not shared. However, other integrated Google
-    services (such as AdMob and Firebase) may still process data as described
-    elsewhere in this policy.
+    Games, Play Games profile data is not shared and no game progress is backed up to
+    the cloud. However, other integrated Google services (such as AdMob and Firebase)
+    may still process data as described elsewhere in this policy.
   </p>
   <p>
     If you do sign in, Google Play Games Services independently collects the
@@ -187,12 +201,18 @@
   <ul>
     <li><strong>User ID (Gamer ID)</strong> — a unique identifier linking your Google account to your in-game profile</li>
     <li><strong>App activity</strong> — achievement and leaderboard progress used to power Google Play Games features</li>
+    <li><strong>Saved game data (cloud save)</strong> — a snapshot of your game progress
+    (Shards, level progress, Forge upgrades, cosmetics, boosts, gameplay statistics,
+    and purchase entitlements such as Remove Ads) stored in the Google Play Games
+    Saved Games service in your Google account, so your progress can be restored on a
+    new device or after a reinstall. Saved game data does not contain payment
+    information or directly identifying personal information.</li>
   </ul>
   <p>
-    Tinker Apps accesses only the Play Games data necessary to provide sign-in,
-    achievements, and leaderboards, and does not store it on its own servers.
-    Tinker Apps does not control how Google collects or uses this data. Google Play
-    Games Services operates under
+    Beatrift uses Google Play Games Services solely to provide sign-in, leaderboards,
+    achievements, and cloud save. Tinker Apps does not store this information on its own
+    servers or use it for any other purpose. Google Play Games Services operates as an
+    independent data controller under
     <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.
   </p>
 
@@ -273,9 +293,9 @@
   </p>
   <ul>
     <li><strong>AdMob</strong> — ad interaction and identifier data is retained per <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
-    <li><strong>Firebase Analytics</strong> — event data is retained for up to 14 months by default; aggregate data may be retained indefinitely.</li>
-    <li><strong>Firebase Crashlytics</strong> — crash reports are retained for 90 days.</li>
-    <li><strong>Google Play Games Services</strong> — achievement and leaderboard data is retained until you delete it via your Google account.</li>
+    <li><strong>Firebase Analytics</strong> — event-level data is retained for a limited period configured within Firebase (subject to Google's defaults, which may change from time to time); aggregate data may be retained for longer.</li>
+    <li><strong>Firebase Crashlytics</strong> — crash reports are retained for a limited period set by Google.</li>
+    <li><strong>Google Play Games Services</strong> — achievement, leaderboard, and saved-game (cloud save) data is retained in your Google account until you delete it via your Google account.</li>
   </ul>
   <p>
     Local game data is retained on your device until you uninstall the app or clear
@@ -288,8 +308,8 @@
     remove data:
   </p>
   <ul>
-    <li><strong>Local game data</strong> — uninstall the app or clear app data in your device settings (you can also use the in-game Settings &gt; Reset Progress option).</li>
-    <li><strong>Achievement and leaderboard data</strong> — delete via your Google Play Games profile or Google Account settings under <em>Settings &gt; Delete Play Games account and data</em>.</li>
+    <li><strong>Local game data</strong> — uninstall the app or clear app data in your device settings (you can also use the in-game Settings &gt; Reset Progress option). If you are signed in to Google Play Games, using Reset Progress while online also updates your cloud save to the reset state; a cloud copy may otherwise remain in your Google account (see below).</li>
+    <li><strong>Achievement, leaderboard, and cloud save data</strong> — delete via your Google Play Games profile or Google Account settings under <em>Settings &gt; Delete Play Games account and data</em>. This also deletes saved-game (cloud save) data.</li>
     <li><strong>AdMob data</strong> — managed by Google; visit <a href="https://myaccount.google.com" target="_blank" rel="noopener">myaccount.google.com</a>.</li>
     <li><strong>Firebase Analytics &amp; Crashlytics data</strong> — processed by Google. Some data may be associated with device- or app-level identifiers rather than your Google Account and may not be individually accessible or deletable by Tinker Apps. For information about Google's privacy controls, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
   </ul>
@@ -313,9 +333,9 @@
   <ul>
     <li><strong>Withdraw or change ad/analytics consent</strong> (EEA, UK &amp; Switzerland) — open <em>Settings &gt; Manage Ad Privacy Options</em> in the app to re-present the Google consent message.</li>
     <li><strong>Opt out of personalised ads / reset your advertising ID</strong> — in your device settings under <em>Settings &gt; Google &gt; Ads</em>.</li>
-    <li><strong>Delete achievement and leaderboard data</strong> — via your Google Play Games profile or Google Account settings under <em>Settings &gt; Delete Play Games account and data</em>.</li>
+    <li><strong>Delete achievement, leaderboard, and cloud save data</strong> — via your Google Play Games profile or Google Account settings under <em>Settings &gt; Delete Play Games account and data</em>.</li>
     <li><strong>Manage data held by Google</strong> — at <a href="https://myaccount.google.com" target="_blank" rel="noopener">myaccount.google.com</a>.</li>
-    <li><strong>Remove local game data</strong> — uninstall the app, clear app data in your device settings, or use the in-game <em>Settings &gt; Reset Progress</em> option.</li>
+    <li><strong>Remove local game data</strong> — uninstall the app, clear app data in your device settings, or use the in-game <em>Settings &gt; Reset Progress</em> option (see <em>Data Deletion</em> for how this interacts with cloud save).</li>
   </ul>
 
   <h2>Your Rights (EEA, UK &amp; Switzerland)</h2>
