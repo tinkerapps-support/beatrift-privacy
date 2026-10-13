@@ -35,7 +35,7 @@
 <body>
 
   <h1>Privacy Policy</h1>
-  <p class="subtitle">Beatrift &nbsp;·&nbsp; Last updated: September 20, 2026</p>
+  <p class="subtitle">Beatrift &nbsp;·&nbsp; Last updated: October 13, 2026</p>
 
   <h2>Overview</h2>
   <p>
@@ -166,8 +166,9 @@
     <strong>The in-game switch, wherever you live.</strong> Beatrift has a
     <em>Share anonymous data</em> switch in <em>Settings</em>. It is available in every
     country, at any time, and it does two things at once: it stops the anonymous
-    gameplay statistics described above, and it tells our advertising partner not to
-    personalise your ads. Ads still appear — turning this off is not the same as the
+    gameplay statistics described under <em>Firebase Analytics</em> below (Firebase may
+    still send limited, non-identifying information needed for basic operation, without any
+    identifier), and it tells our advertising partner not to personalise your ads. Ads still appear — turning this off is not the same as the
     ad-free purchase — but they are no longer targeted using an advertising profile.
   </p>
   <p>
@@ -255,6 +256,19 @@
     <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.
   </p>
 
+  <h2>Our Other Games</h2>
+  <p>
+    The <em>More games</em> list in Settings shows other games by Tinker Apps. If no rewarded
+    ad is available when you ask for one, the game may show a <em>More from TinkerApps</em>
+    card for one of those games instead, and still gives you the reward for viewing it — you
+    never need to install anything. These cards are part of the app: no advertising SDK is
+    involved and nothing is downloaded to show them. If you tap one, Google Play opens that
+    game's store page with a short tag naming Beatrift as where you came from, so Google
+    Play can report how many installs our own promotion produced. The tag contains no
+    personal information. We record the tap, and when a card was shown or its reward
+    claimed, in Firebase Analytics (see below).
+  </p>
+
   <h2>Firebase Analytics</h2>
   <p>
     Beatrift uses Google Firebase Analytics to understand how players interact
@@ -267,8 +281,10 @@
     are on (title, level select, gallery, store, Forge, gameplay), starting and finishing a
     level with its result and accuracy, daily mission progress, opening the store, rewarded
     and full-screen ad placements and whether an ad was watched, each step of an in-app
-    purchase (starting checkout, completing it, or the reason one did not complete), and
-    whether you are signed in to Google Play Games</li>
+    purchase (starting checkout, completing it, or the reason one did not complete),
+    whether you are signed in to Google Play Games, whether a rating prompt was requested,
+    allowed by Google Play or held back, and when you tapped one of our other games (see
+    <em>Our Other Games</em>)</li>
     <li><strong>Purchase events, including the amount and currency</strong> of an in-app
     purchase you complete, so that revenue can be reported alongside gameplay. Tinker Apps
     never receives, sees, or stores your payment details — see <em>Google Play Billing</em>
@@ -282,7 +298,8 @@
     set of coarse labels describing what kind of player you are, so that the reports above
     can be broken down by group rather than read as one undifferentiated total. For Beatrift
     these are: whether you have bought Remove Ads, whether you own premium cosmetics, which
-    arc you have reached, and roughly how far into the levels you are. These labels are
+    arc you have reached, roughly how far into the levels you are, and whether you are
+    signed in to Google Play Games. These labels are
     deliberately coarse ranges rather than exact values (for example "levels 11–25", not
     "level 17"), they describe your activity in this game only, and they are not used to
     target advertising.
@@ -328,7 +345,8 @@
   <p>
     Beatrift uses this information only to provide an age-appropriate experience —
     specifically, to apply more restrictive, non-personalised advertising settings for users
-    who are minors — and for legal compliance and safety, as permitted by these laws.
+    who are minors and to turn off Firebase Analytics for them (the <em>Share anonymous
+    data</em> switch then shows as off) — and for legal compliance and safety, as permitted by these laws.
     In-app purchases are not restricted by the app based on this signal; purchases by
     minors are gated by Google Play's own parental-approval controls (such as Family
     Link / "Ask to Buy"). Tinker Apps
